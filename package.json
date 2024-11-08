@@ -1,0 +1,23 @@
+{
+  "name": "video_streaming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "httpolyglot": "^0.1.2",
+    "mediasoup": "^3.14.16",
+    "mongoose": "^8.8.0",
+    "socket.io": "^4.2.0"
+  }
+}

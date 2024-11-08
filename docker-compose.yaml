@@ -1,0 +1,11 @@
+version: "3" 
+services: 
+  linux:
+    container_name: "video-stream-ubuntu"
+    image: "video-stream"
+    restart: "always"
+    tty: true
+    ports:
+      - "4200:4200"
+      - "2000-2020:2000-2020"
+      # - "10000-10100:10000-10100"
